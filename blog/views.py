@@ -7,7 +7,7 @@ from django.views.generic import ListView
 from taggit.models import Tag
 
 from .forms import EmailPostForm, CommentForm
-from .models import Post, Comment
+from .models import Post
 
 
 def post_list(request, tag_slug=None):
